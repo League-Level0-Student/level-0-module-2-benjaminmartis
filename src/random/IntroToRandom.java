@@ -14,6 +14,7 @@ public class IntroToRandom {
 		int r = 0;
 		
 		//2. Now make r random. 
+		r = new Random().nextInt(50)+25;
 		//   Create an object of the Random class
 		//   Hint: new Random().nextInt()
 
